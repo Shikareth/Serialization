@@ -32,6 +32,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Optinav.Mathlib">
+      <HintPath>D:\Visual Studio Projects\Optinav.Handgage_ver2\Handgage\bin\Debug\Optinav.Mathlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Optinav.Tools">
+      <HintPath>D:\Visual Studio Projects\Optinav.Handgage_ver2\Handgage\bin\Debug\Optinav.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="OptiTrace.Api">
+      <HintPath>D:\Visual Studio Projects\Optinav.Handgage_ver2\Handgage\bin\Debug\OptiTrace.Api.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,9 +53,20 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="ValidationHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Settings.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

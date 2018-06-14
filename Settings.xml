@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SelectedProbeId>0</SelectedProbeId>
-  <ExposureTime>0</ExposureTime>
-  <ErrorThreshold>0</ErrorThreshold>
+  <ExposureTime>20000</ExposureTime>
+  <ErrorThreshold>500</ErrorThreshold>
   <CameraOrder>
     <Camera0>U502901</Camera0>
     <Camera1>U502902</Camera1>
@@ -16,21 +16,21 @@
       <AngleZ>0</AngleZ>
       <Radius>1</Radius>
       <TCP>
-        <X>0</X>
-        <Y>0</Y>
-        <Z>0</Z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </TCP>
     </Probe>
   <Probe>
       <Name>Probe2</Name>
       <AngleX>0</AngleX>
-      <AngleY>1</AngleY>
+      <AngleY>0</AngleY>
       <AngleZ>0</AngleZ>
       <Radius>1</Radius>
       <TCP>
-        <X>0</X>
-        <Y>0</Y>
-        <Z>0</Z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </TCP>
     </Probe>
   <Probe>
@@ -40,9 +40,9 @@
       <AngleZ>0</AngleZ>
       <Radius>1</Radius>
       <TCP>
-        <X>0</X>
-        <Y>0</Y>
-        <Z>0</Z>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
       </TCP>
     </Probe>
   </ProbeList>
